@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../providers/language_provider.dart';
 import 'package:provider/provider.dart';
-
 import '../models/meal.dart';
 import '../widgets/meal_item.dart';
 import '../providers/meal_provider.dart';

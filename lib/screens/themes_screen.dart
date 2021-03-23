@@ -1,16 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 import 'package:provider/provider.dart';
-
 import '../providers/language_provider.dart';
 import '../providers/theme_provider.dart';
 import '../widgets/main_drawer.dart';
 
 class ThemesScreen extends StatelessWidget {
   static const routeName = '/themes';
-
   final bool fromOnBoarding;
-
   ThemesScreen({this.fromOnBoarding = false});
 
   Widget buildRadioListTile(
